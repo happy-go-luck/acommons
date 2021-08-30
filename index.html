@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Arcommons/HOME</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(function() {
+  var h = $(window).height();
+  
+  $('#wrap').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+});
+  
+$(window).load(function () { //全ての読み込みが完了したら実行
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+  $('#wrap').css('display', 'block');
+});
+  
+//10秒たったら強制的にロード画面を非表示
+$(function(){
+  setTimeout('stopload()',10000);
+});
+  
+function stopload(){
+  $('#wrap').css('display','block');
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+}
+</script>
+</head>
+<body>
+
+
+  <div id="loader-bg">
+    <div id="loader">
+      <img src="./imgs/logo2.png" width="100%" height="auto" alt="Now Loading..." />
+      <p>Now Loading...</p>
+    </div>
+  </div>
+  <div id="wrap">
+    <header>
+      <div class="h-left">
+        <img src="./imgs/logo2.png">
+      </div>
+  
+      <div class="h-right">
+        <!-- <h3>株式会社アルコモンズは、安心と安全を提供する会社です。</h3> -->
+      </div>
+    </header>
+  
+    <main>
+      <div class="m-back">
+  
+        <div class="m-title">
+          <img src="./imgs/left.png">
+          <div class="contents">
+            <h3> 防犯設備士・防犯診断士・電気工事士の資格を有する</h3>
+            <h3>プロフェッショナル集団として飲食店、コンビニエンスストア、</h3>
+            <h3> 商店街に防犯カメラを設置しています。</h3>
+              <p>RCOMMONS</p>
+          </div>
+          <img src="./imgs/right.png">
+        </div>
+  
+      </div>
+  
+      <div class="btns">
+        <a href="./index.html" class="btn1 btn">
+          <div class="btn-contents">
+            <p>Home</p>
+            <img src="./imgs/blue.png">
+          </div>
+        </a>
+        <a href="./company.html" class="btn2 btn">
+          <div class="btn-contents">
+            <p>Company info</p>
+            <img src="./imgs/green.png">
+          </div>
+        </a>
+        <a href="./company.html#contact" class="btn3 btn">
+          <div class="btn-contents">
+            <p>Contact us</p>
+            <img src="./imgs/black.png">
+          </div>
+        </a>
+      </div>
+    </main>
+  
+    <footer>
+      <p>Copyright © 2021 RCOMMONS All Right Reserved.</p>
+    </footer>
+    
+  </div>
+
+
+  
+
+  <script src="main.js"></script>
+</body>
+</html>
+

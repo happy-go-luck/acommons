@@ -1,0 +1,75 @@
+@media screen and (max-width: 910px) {
+  header .h-left {
+    width: 50%;
+  }
+  header .h-left img {
+    width: 100%;
+  }
+  header .h-right {
+    width: 50%;
+  }
+  header .h-right h3 {
+    font-size: 0.5rem;
+  }
+  main .m-back .m-title .contents {
+    width: 80%;
+  }
+  main .m-back .m-title .contents h3 {
+    font-size: 0.3rem;
+    margin: 0;
+  }
+  main .m-back .m-title .contents p {
+    font-size: 0.5rem;
+    margin: 0;
+  }
+  main .btns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 30px auto 0 auto;
+  }
+  main .btns .btn {
+    margin: 15px 0 0 0;
+    width: 80%;
+  }
+  main .btns .btn p {
+    font-size: 0.8rem;
+  }
+  main .m-top {
+    width: 90%;
+  }
+  main .m-top .c-btns {
+    margin: 50px 0 0 0;
+  }
+  main .m-top .c-btns .c-btn p {
+    padding: 5px 7px;
+    font-size: 0.5rem;
+  }
+  main .m-top img {
+    width: 100%;
+    margin: 30px auto 0 auto;
+  }
+  main .company {
+    width: 80%;
+  }
+  main .company h2 {
+    font-size: 1.5rem;
+  }
+  main .company span {
+    font-size: 1rem;
+  }
+  main .company p {
+    font-size: 0.8rem;
+  }
+  main .company .section ul a, main .company .section ul li {
+    font-size: 0.8rem;
+  }
+  main .company .section p {
+    font-size: 0.8rem;
+  }
+  footer p {
+    font-size: 0.5rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
