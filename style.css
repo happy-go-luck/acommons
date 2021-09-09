@@ -237,7 +237,7 @@ main .container {
 }
 
 main .container h2 {
-  margin: 50px 0 0 0;
+  margin: 150px 0 0 0;
   color: #009671;
   font-size: 2rem;
 }
@@ -320,13 +320,66 @@ main .maps iframe {
   height: auto;
 }
 
-main .contact {
-  width: 80%;
-  margin: 0 auto;
+main .contact-box {
+  margin: 150px 0 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-main .contact p a {
-  font-size: 2rem;
+main .contact-box h2 {
+  margin: 0;
+}
+
+main .contact-box .contact {
+  margin: 0 0 0 5%;
+}
+
+main .contact-box .contact a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #EC6100;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 6px 5px 0px #B84B01;
+          box-shadow: 0px 6px 5px 0px #B84B01;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main .contact-box .contact a:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+main .contact-box .contact a p {
+  margin: 0;
+}
+
+main .contact-box .contact a i {
+  padding: 0 20px 0 5px;
 }
 
 footer {

@@ -183,7 +183,7 @@ main {
     @include marginCnter(70%);
 
     h2 {
-      margin: 50px 0 0 0;
+      margin: 150px 0 0 0;
       color: #009671;
       font-size: 2rem;
     }
@@ -269,16 +269,46 @@ main {
     }
   }
 
-  
+  .contact-box {
+    margin: 150px 0 100px 0;
+    @include flexCenter();
+    justify-content: flex-start;
 
-  .contact {
-    @include marginCnter(80%);
+    & h2 {
+      // width: 25%;
+      margin: 0;
+    }
 
-    p {
+    .contact {
+      margin: 0 0 0 5%;
+
       a {
-        font-size: 2rem;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: white;
+        background-color:#EC6100;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        box-shadow: 0px 6px 5px 0px #B84B01;
+        
+        @include flexCenter();
+        justify-content: flex-start;
+
+        &:hover {
+          box-shadow: none;
+          transform: translateY(2px);
+        }
+
+        p {
+          margin: 0;
+        }
+
+        i {
+          padding: 0 20px 0 5px;
+        }
       }
     }
+
   }
 
 
