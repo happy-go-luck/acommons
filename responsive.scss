@@ -71,12 +71,16 @@
       }
     }
 
-    .company {
-      width: 80%;
+    .container {
+      width: 90%;
 
       h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
+    }
+
+    .company {
+      width: 80%;
 
       span {
         font-size: 1rem;
@@ -98,6 +102,48 @@
         }
       }
     }
+
+    .products {
+
+      .content {
+        font-size: 0.8rem;
+      }
+      .lineup {
+        grid-template: '. .'
+                       '. .';
+
+        .product {
+          h5,p {
+            font-size: 0.5rem;
+          }
+        }
+      }
+    }
+
+    .maps {
+      display: block;
+      .map {
+
+        h5,p {
+          font-size: 0.8rem;
+        }
+      }
+
+      iframe {
+        margin: 0 auto;
+        display: block;
+      }
+    }
+
+    .contact {
+      p {
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
+
+
   }
 
   footer {

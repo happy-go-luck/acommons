@@ -50,11 +50,14 @@
     width: 100%;
     margin: 30px auto 0 auto;
   }
+  main .container {
+    width: 90%;
+  }
+  main .container h2 {
+    font-size: 1.2rem;
+  }
   main .company {
     width: 80%;
-  }
-  main .company h2 {
-    font-size: 1.5rem;
   }
   main .company span {
     font-size: 1rem;
@@ -67,6 +70,28 @@
   }
   main .company .section p {
     font-size: 0.8rem;
+  }
+  main .products .content {
+    font-size: 0.8rem;
+  }
+  main .products .lineup {
+    grid-template: '. .' '. .';
+  }
+  main .products .lineup .product h5, main .products .lineup .product p {
+    font-size: 0.5rem;
+  }
+  main .maps {
+    display: block;
+  }
+  main .maps .map h5, main .maps .map p {
+    font-size: 0.8rem;
+  }
+  main .maps iframe {
+    margin: 0 auto;
+    display: block;
+  }
+  main .contact p a {
+    font-size: 1rem;
   }
   footer p {
     font-size: 0.5rem;
