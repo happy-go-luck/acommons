@@ -55,6 +55,13 @@ body {
 header {
   @include marginCnter(95%);
   @include flexCenter();
+
+  .h-left {
+    img {
+      width: 30%;
+      margin: 2px;
+    }
+  }
   
   .h-right {
     color:$titleBlue;

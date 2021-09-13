@@ -44,6 +44,11 @@ header {
           align-items: center;
 }
 
+header .h-left img {
+  width: 30%;
+  margin: 2px;
+}
+
 header .h-right {
   color: #00B3BD;
 }
